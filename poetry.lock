@@ -11,12 +11,9 @@ files = [
     {file = "asgiref-3.7.2.tar.gz", hash = "sha256:9e0ce3aa93a819ba5b45120216b23878cf6e8525eb3848653452b4192b92afed"},
 ]
 
-<<<<<<< HEAD
-=======
 [package.dependencies]
 typing-extensions = {version = ">=4", markers = "python_version < \"3.11\""}
 
->>>>>>> 98099bd (add cors-headres)
 [package.extras]
 tests = ["mypy (>=0.800)", "pytest", "pytest-asyncio"]
 
@@ -59,8 +56,6 @@ argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "django-cors-headers"
 version = "4.3.1"
 description = "django-cors-headers is a Django application for handling the server headers required for Cross-Origin Resource Sharing (CORS)."
@@ -76,7 +71,6 @@ asgiref = ">=3.6"
 Django = ">=3.2"
 
 [[package]]
->>>>>>> 98099bd (add cors-headres)
 name = "et-xmlfile"
 version = "1.1.0"
 description = "An implementation of lxml.xmlfile for the standard library"
@@ -212,15 +206,11 @@ files = [
 ]
 
 [package.dependencies]
-<<<<<<< HEAD
-numpy = {version = ">=1.26.0,<2", markers = "python_version >= \"3.12\""}
-=======
 numpy = [
     {version = ">=1.22.4,<2", markers = "python_version < \"3.11\""},
     {version = ">=1.23.2,<2", markers = "python_version == \"3.11\""},
     {version = ">=1.26.0,<2", markers = "python_version >= \"3.12\""},
 ]
->>>>>>> 98099bd (add cors-headres)
 python-dateutil = ">=2.8.2"
 pytz = ">=2020.1"
 tzdata = ">=2022.1"
@@ -391,8 +381,6 @@ doc = ["sphinx"]
 test = ["pytest", "pytest-cov"]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "typing-extensions"
 version = "4.8.0"
 description = "Backported and Experimental Type Hints for Python 3.8+"
@@ -404,7 +392,6 @@ files = [
 ]
 
 [[package]]
->>>>>>> 98099bd (add cors-headres)
 name = "tzdata"
 version = "2023.3"
 description = "Provider of IANA time zone data"
@@ -439,10 +426,5 @@ files = [
 
 [metadata]
 lock-version = "2.0"
-<<<<<<< HEAD
-python-versions = "^3.12"
-content-hash = "5054bcb97199af5478b6d5b4a0eba13c3e95c58d6f69c29a26e1b402880657f2"
-=======
 python-versions = "^3.10"
 content-hash = "a26d83cdef4c097b73f1e4e6e1f3e4ff6855482a6ab575292ef8b718bd3282e5"
->>>>>>> 98099bd (add cors-headres)
